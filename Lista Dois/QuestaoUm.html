@@ -6,44 +6,35 @@
     <title> Tables </title>
 </head>
 <body>
-
-    <h1>Table Examble: Spanning Rows and Columns</h1>
-   <center> <p> A more complex sample table </p></center>
-
-    <table border="2" width="300">
-    <tr> 
-        <th> <center> Camelid comparison <br> Aproximate as of 6/2011 </center> </th height="600" width="">
-    </tr>
-   
-    <tr> 
-        <td> 
-            <center> 
-                <img src="animal.png" alt="" height="150" width="150"> 
-            </center> 
-        </td>
-
-        <td> <b> # of humps </b> </td>
-        <td> <b> Indigenous region </b> </td>
-        <td> <b> Spits? </b> </td>
-        <td> <b> Produces wool? </b> </td>
-    </tr>
-    <tr> 
-            <th> Camels (bactrian) </th>
-            <td> 2 </td>
-            <td> Africa/Asia </td>
-            <td> Yes </td>
-            <td> Yes </td>
-        </tr>
+    <table border="1">
         <tr>
-            <th rownspan="2"> Llamas </th>
-            <td> 1 </td>
-            <td> Andes Mountains </td>
-            <td> Yes </td>
-            <td> Yes </td>
-        </tr>
-    </tr>
-    </table>
+            <th rowspan="2"><img src="animal.png" alt="camelo" width="100" height="100"></th>
+            <th colspan="5">Camelid comparison <br> Approximan as of 6/2011</th>
+        </tr> <br>
 
-</table>
+        <tr>
+            <td># of humps</td>
+            <td>Indigenous region</td>
+            <td>Spits?</td>
+            <td>Produces wool?</td>
+        </tr>
+
+        <tr>
+            <th>Camels (bactrian)</th>
+            <td>2</td>
+            <td>Africa/Asia</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        
+        <tr>
+            <th>Lhamas</th>
+            <td>1</td>
+            <td>Andes Mountains</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        
+    </table>
 </body>
 </html>
